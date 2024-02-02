@@ -1,14 +1,9 @@
 <?php
-echo "<h1>hello world this is test</h1>";
+
+$Title = "Exercise 1: Getting Started with PHP - Manpreet";
+
+include "header.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Exercise 1: Getting Started with PHP - Manpreet</title>
-    </head>
-    <body>
         <h3>3.1 Write PHP code to output the following message:
         Hello world My name is "David"
         <h3>
@@ -30,7 +25,7 @@ echo "<h1>hello world this is test</h1>";
              $g3=5;
         ?>
 
-<table>
+<table class="php"> 
     <tr>
          <th> S No. </th>
          <th> Name </th>
@@ -60,5 +55,7 @@ echo "<h1>hello world this is test</h1>";
 
 <img src  = "manu1.png"/>
 
-  </body>
-</html>
+
+<?php
+include "footer.php";
+?>
