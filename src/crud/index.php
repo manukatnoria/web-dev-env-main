@@ -87,6 +87,7 @@ if ($result->num_rows > 0) {
                     <th>Last Name</th>
                     <th>City</th>
                     <th>Group ID</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>";
@@ -99,7 +100,7 @@ if ($result->num_rows > 0) {
                 <td>{$row['last_name']}</td>
                 <td>{$row['city']}</td>
                 <td>{$row['groupId']}</td>
-                <td><a href='updatesingle.php?id=$row[id]'><i class='fa fa-edit'></i></a></td>
+                <td><a href='updatesingle.php?id=$row[id]'>Edit</a></td>
               </tr>";
     }
 
